@@ -31,6 +31,9 @@ public class Script_PlayerSync : NetworkBehaviour {
     public float positionLerpRate = 15f;
     public float positionThreshold = 0.3f;
 
+	[Header("Health")]
+	public float playerHealth = 100.0f;
+
     Quaternion lastPlayerRotation;
     Vector3 lastPlayerPosition;
     #endregion
