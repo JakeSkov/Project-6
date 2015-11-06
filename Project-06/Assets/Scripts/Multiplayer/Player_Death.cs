@@ -10,7 +10,7 @@ public class Player_Death : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        crosshairs = gameObject.Find("Crosshairs").GetComponentsInChildren<Image>();
+        crosshairs = GameObject.Find("Crosshairs").GetComponentsInChildren<Image>();
         healthScript = GetComponent<Player_Health>();
         healthScript.EventDie += DisablePlayer;
 	}
