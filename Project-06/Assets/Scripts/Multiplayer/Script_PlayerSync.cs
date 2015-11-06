@@ -43,7 +43,7 @@ public class Script_PlayerSync : NetworkBehaviour {
 		if (!isLocalPlayer) {
 			Destroy (myController);
 			Destroy (myRigidbody);
-			Destroy (myCollider);
+			//Destroy (myCollider);
 			Destroy (myCameraObject);
 		}
     }

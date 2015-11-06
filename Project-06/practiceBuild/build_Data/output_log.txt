@@ -2,42 +2,43 @@ Initialize engine version: 5.1.2f1 (afd2369b692a)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   NVIDIA
-    VRAM:     1993 MB
+    VRAM:     3072 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.076 seconds
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.048 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\svc-student\Desktop\Project-6\Project-06\practiceBuild\build_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\svc-student\Desktop\Project-6-master\Project-06\practiceBuild\build_Data\Managed\System.dll (this message is harmless)
 The referenced script on this Behaviour is missing!
  
 (Filename:  Line: 1715)
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2b80 -> priority: 1 
-  Thread -> id: 2804 -> priority: 1 
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 219c -> priority: 1 
+  Thread -> id: 202c -> priority: 1 
+  Thread -> id: 1464 -> priority: 1 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.333129 ms
+UnloadTime: 2.348196 ms
 0 0
 0 0
  
@@ -49,7 +50,7 @@ UnloadTime: 3.333129 ms
 
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 281.
-Total: 0.276227 ms (FindLiveObjects: 0.014474 ms CreateObjectMapping: 0.018093 ms MarkObjects: 0.233406 ms  DeleteObjects: 0.009649 ms)
+Total: 0.255035 ms (FindLiveObjects: 0.016484 ms CreateObjectMapping: 0.033279 ms MarkObjects: 0.197497 ms  DeleteObjects: 0.007464 ms)
 
 The referenced script on this Behaviour is missing!
  

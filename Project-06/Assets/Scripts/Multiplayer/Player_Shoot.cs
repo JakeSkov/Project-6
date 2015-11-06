@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 public class Player_Shoot : NetworkBehaviour {
 
     public int damage = 10;
-    public float range = 20;
+    public float range = 200f;
     [SerializeField] private Transform camTransform;
     private RaycastHit hit;
 
@@ -44,6 +44,7 @@ public class Player_Shoot : NetworkBehaviour {
                 CmdTellServerWhoWasShot(uIdentity, damage);
             }
         }
+
     }
 
     [Command]
