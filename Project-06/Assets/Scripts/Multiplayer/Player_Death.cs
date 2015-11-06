@@ -22,7 +22,8 @@ public class Player_Death : NetworkBehaviour {
 
     void DisablePlayer()
     {
-        GetComponent<CharacterController>().enabled = false;
+
+		//GetComponent<CharacterController> ().enabled = false;
         GetComponent<Player_Shoot>().enabled = false;
 
         Renderer[] renderers = GetComponentsInChildren<Renderer>();
@@ -35,7 +36,8 @@ public class Player_Death : NetworkBehaviour {
 
         if(isLocalPlayer)
         {
-            GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
+            GetComponent<UnityStandardAssets.Characters.
+				FirstPerson.RigidbodyFirstPersonController>().enabled = false;
             foreach (Image img in crosshairs)
             {
                 img.enabled = false;
