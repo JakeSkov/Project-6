@@ -51,8 +51,6 @@ public class PlayerID : NetworkBehaviour {
 		playerUniqueIdentity = name;
 	}
 
-	//to begin shooting on lesson 8, go to
-	//https://www.youtube.com/watch?v=_u_0IphF33o&index=10&list=PLwyZdDTyvucyAeJ_rbu_fbiUtGOVY55BG
 }
 
 
