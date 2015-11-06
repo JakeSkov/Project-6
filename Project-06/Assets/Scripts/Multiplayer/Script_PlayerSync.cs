@@ -31,6 +31,9 @@ public class Script_PlayerSync : NetworkBehaviour {
     public float positionLerpRate = 15f;
     public float positionThreshold = 0.3f;
 
+	[Header("Health")]
+	public float playerHealth = 100.0f;
+
     Quaternion lastPlayerRotation;
     Vector3 lastPlayerPosition;
     #endregion
@@ -40,7 +43,7 @@ public class Script_PlayerSync : NetworkBehaviour {
 		if (!isLocalPlayer) {
 			Destroy (myController);
 			Destroy (myRigidbody);
-			Destroy (myCollider);
+			//Destroy (myCollider);
 			Destroy (myCameraObject);
 		}
     }
