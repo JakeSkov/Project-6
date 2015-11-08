@@ -8,15 +8,24 @@ public class Player_Health : NetworkBehaviour {
     [SyncVar (hook = "OnHealthChanged")]
     private int health = 100;
     private Text healthText;
+    private GameObject respawnCountdown;
+    private Text respawnText;
     private bool shouldDie = false;
     public bool isDead = false;
+
+    public float timeToRespawn = 10f;
 
     public delegate void DieDelegate();
     public event DieDelegate EventDie;
 
-	// Use this for initialization
-	void Start () {
+    public delegate void RespawnDelegate();
+    public event RespawnDelegate EventRespawn;
+
+    // Use this for initialization
+    void Start () {
         healthText = GameObject.Find("HealthText").GetComponent<Text>();
+        respawnCountdown = GameObject.Find("GameManager").GetComponent<GameManager_References>().respawnCountdownText;
+        respawnText = respawnCountdown.GetComponent<Text>();
         SetHealthText();
 	}
 	
@@ -41,6 +50,21 @@ public class Player_Health : NetworkBehaviour {
 
             shouldDie = false;
         }
+
+        if(health > 0 && isDead)
+        {
+            if(EventRespawn != null)
+            {
+                Debug.Log("Start Respawn Process");
+                
+
+                //StartCoroutine("RespawnCountdown");
+                EventRespawn();
+
+            }
+
+            isDead = false;
+        }
     }
 
     void SetHealthText()
@@ -60,5 +84,24 @@ public class Player_Health : NetworkBehaviour {
     {
         health = newHealth;
         SetHealthText();
+    }
+
+    public void ResetHealth()
+    {
+        health = 100;
+    }
+
+    public IEnumerator RespawnCountdown()
+    {
+        float respawnTime = timeToRespawn;
+        respawnCountdown.SetActive(true);
+        while (respawnTime > 0)
+        {
+            respawnTime -= Time.deltaTime;
+            respawnText.text = "Respawn in: " + ((int)respawnTime).ToString();
+            yield return null;
+        }
+        respawnCountdown.SetActive(false);
+        GameObject.Find("GameManager").GetComponent<GameManager_References>().respawnButton.SetActive(true);
     }
 }
