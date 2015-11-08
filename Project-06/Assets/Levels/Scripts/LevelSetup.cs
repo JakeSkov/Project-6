@@ -19,7 +19,7 @@ public class LevelSetup : MonoBehaviour
     private const int DEFAULT_LENGTH = 2;
 
     //Object Constants
-    private const int MAX_OBJECTS = 50;
+    private const int MAX_OBJECTS = 150;
     private const int MIN_OBJECTS = 0;
     private const int DEFAULT_NUM_OBJECTS = 15;
 
@@ -97,9 +97,5 @@ public class LevelSetup : MonoBehaviour
     public void OnStartClick()
     {
         TestValues();
-        Debug.Log("Length = " + LevelCreation.groundLength);
-        Debug.Log("Width = " + LevelCreation.groundWidth);
-        Debug.Log("Num Objects = " + LevelCreation.numObjects);
-        Application.LoadLevel(levelScene);
     }
 }

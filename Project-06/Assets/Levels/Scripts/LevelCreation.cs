@@ -8,9 +8,9 @@ using System.Collections;
 public class LevelCreation : MonoBehaviour 
 {
     //Map Modifiers
-    public static int groundWidth;
-    public static int groundLength;
-    public static int numObjects;
+    public static int groundWidth = 10;
+    public static int groundLength = 10;
+    public static int numObjects = 15;
 
     //Object Variables
     public GameObject[] environmentObjects;
@@ -20,7 +20,7 @@ public class LevelCreation : MonoBehaviour
     //Spawn Variables
     private int spawnXMin, spawnXMax;
     private int spawnYMin, spawnYMax;
-    private int spawnHeight = 1;
+    private int spawnHeight = 3;
 
 	// Use this for initialization
 	void Start () 
