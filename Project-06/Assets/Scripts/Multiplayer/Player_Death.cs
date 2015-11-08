@@ -25,6 +25,8 @@ public class Player_Death : NetworkBehaviour {
 
 		//GetComponent<CharacterController> ().enabled = false;
         GetComponent<Player_Shoot>().enabled = false;
+        //GetComponent<CapsuleCollider>().enabled = false;
+        //GetComponent<Rigidbody>().detectCollisions = false;
 
         Renderer[] renderers = GetComponentsInChildren<Renderer>();
         foreach(Renderer visible in renderers)
@@ -42,6 +44,8 @@ public class Player_Death : NetworkBehaviour {
             {
                 img.enabled = false;
             }
+
+            healthScript.StartCoroutine("RespawnCountdown");
         }
     }
 }
